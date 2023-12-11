@@ -1,0 +1,118 @@
+<!-- //RENDY Septian Pradana
+//MI1D -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	Rendy Septian Pradana</title>
+
+	<link rel="stylesheet" type="text/css" href="order.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="member.html">
+	<link rel="stylesheet" type="text/css" href="nonmember.html">
+	<link rel="stylesheet" type=" txt/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	
+
+</head>
+<style>
+	button{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    opacity:0.9;
+}
+</style>
+<body >
+
+
+	<!-- header -->
+	<div class="wa">
+		<div class="contain">
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+	<div	class="contain">
+	  	<h1><a href="index.html">RDY COFFEE STORE</a></h1>
+			    <ul>
+					<li ><a href="index.html">HOME</a></li>
+					<li ><a href="biodata.html">BIODATA</a></li>
+					<li><a href="resto.html">RESTO</a></li>
+					<li class ="active"><a href="order.html">ORDER</a></li>
+			    </ul>
+	</div>
+	</header>
+
+	<!-- label halaman-->
+<section class="label">
+	<div class="contain">
+		<p>Home / Order</p>
+	</div>
+</section>
+
+<!-- form ordeer -->
+<div class="container">
+  <div class="left">
+    <div class="header">
+      <h2 class="animation a1">Welcome Back To RDY Coffe Store</h2>
+      <h4 class="animation a2">Silahkan order coffe Favorit Anda</h4>
+    </div>
+    <div class="form">
+    	<form action="pesan.php" method="post">
+      <input type="ID" class="form-field animation a3" placeholder="Masukkan ID"name="id">
+      <input type="Nama " class="form-field animation a4" placeholder="Masukkan nama Anda"name="nama">
+      <br>
+      <br>
+      <h4 class="animation a2">Status</h4>
+
+      <input type="radio"name="status"class="form-field animation a3" value="member">Member</a>
+      <input type="radio" name="status"class="form-field animation a4" value="nonmember">Non Member</a><br>
+      <br>
+      <h4 class="animation a2">Varian Coffe </h4>
+      <br>
+      <select name=" menu" size="1"> 
+      <option value ="none">none
+      <option value ="toraja">Arabika Toraja Sapan       -Rp 58.000
+      <option value ="mandeling">Arabika Mandheling      -Rp 58.000
+      <option value ="bali">Arabika Bali Kintamani       -Rp 59.000
+      <option value ="papua">Arabika Papua Wamena        -Rp 64.000
+      <option value ="flores">Arabika Flores Bajawa      -Rp 59.000
+      <option value ="java">Arabika Java Preanger        -Rp 55.000
+       </select>
+       <br>
+      <input type="number" class="form-field animation a4" placeholder="Jumlah"name="jumlah">
+      <button class="animation a6">Order</button>
+    </form>
+    </div>
+  </div>
+  <div class="right"></div>
+</div>
+
+
+<!-- <img src="gambar.jpeg" > -->
+
+	</div>
+</section>
+<!-- footer -->
+<footer> 
+	<div class="contain">
+		<small>Copyright &copy; 2020-Rendy . All Rights Reserved.</small>
+	</div>
+
+</footer>
+
+
+
+</body>
+</html>
+
